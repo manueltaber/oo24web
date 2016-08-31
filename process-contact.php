@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['action'])) { // Checking for submit action
-	$my_email = 'support@affapress.com'; // Change with your email address
+	$my_email = 'openorder24@outlook.com'; // Change with your email address
 	
 	if ($_POST['action'] == 'add') {
 		$name		= trim(strip_tags(addslashes($_POST['name'])));
