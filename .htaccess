@@ -4,3 +4,7 @@ RewriteCond %{HTTP_HOST} ^www\.openorder24\.com$
 RewriteRule ^/?$ "http\:\/\/openorder24\.com\/" [R=301,L]
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+ErrorDocument 404 /404.html
+
+ServerSignature Off
