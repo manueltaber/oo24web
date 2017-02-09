@@ -97,6 +97,10 @@ video {
 	height:auto;
 }
 
+.strong {
+	font-weight: bold;
+}
+
 .no-padding-top { padding-top:0px !important; }
 .no-padding-right { padding-right:0px !important; }
 .no-padding-bottom  { padding-bottom:0px !important; }
